@@ -1,0 +1,21 @@
+# vAPI - Endpoints Recon
+
+Target: http://localhost:8000/vapi/
+Explored via: Postman (vAPI collection + vAPI_ENV)
+
+| Folder | OWASP Category | Endpoints |
+|---|---|---|
+| API1 | BOLA | POST Create User, GET Get User, PUT Update User |
+| API2 | Broken User Authentication | POST User Login, GET Get Details |
+| API3 | Excessive Data Exposure | POST Create User |
+| API4 | Lack of Resources & Rate Limiting | POST Mobile Login, POST Verify OTP, GET Get Details |
+| API5 | Broken Function Level Authorization | POST Create User, GET Get User |
+| API6 | Mass Assignment | POST Create User, GET Get User |
+| API7 | Security Misconfiguration | POST Create User, GET User Login, GET Get Key, GET User Logout |
+| API8 | Injection | POST User Login, GET Get Secret |
+| API9 | Improper Assets Management | v2 (sub-folder) |
+| API10 | Insufficient Logging & Monitoring | GET Get Flag |
+
+Starting point for testing: API1 (BOLA) — matches directly with my API testing background.
+
+
